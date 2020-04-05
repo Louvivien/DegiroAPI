@@ -306,6 +306,8 @@ class DegiroAPI:
         """
         
         res = self.check_order(order)
+        print(res)
+        order_status = res.get("status")        
         if res['data']['confirmationId'] != '':
             confirm_id = res['data']['confirmationId']
             confirmation_res = self.confirm_order(order, str(confirm_id))
