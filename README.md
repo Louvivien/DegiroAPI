@@ -11,7 +11,7 @@ It can be used to:
  - Delete current orders
 
 
-Based on [Pladaria's work](https://github.com/pladaria/degiro).
+
 
 ---
 
