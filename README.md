@@ -19,11 +19,11 @@ It can be used to:
 
 pip:
 
-    pip install git+https://github.com/Lanrutcon/DegiroAPI.git
+    pip install git+https://github.com/Louvivien/DegiroAPI.git
 
 Without pip:
 
-    git clone https://github.com/Lanrutcon/DegiroAPI.git
+    git clone https://github.com/Louvivien/DegiroAPI.git
     cd DegiroAPI
     python setup.py install
 
